@@ -1,4 +1,4 @@
-﻿namespace StatisticLibrary
+﻿namespace StatisticLibrary.Enums
 {
     public enum LicenseType
     {

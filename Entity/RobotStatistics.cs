@@ -1,6 +1,7 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
+using StatisticLibrary.Enums;
 
-namespace StatisticLibrary
+namespace StatisticLibrary.Entity
 {
     public class RobotStatistics
     {
@@ -9,11 +10,12 @@ namespace StatisticLibrary
 
         }
 
+        
+
         /// <summary>
-        /// Индивидуальный id железа
+        /// Название ПО (уникальное для каждого типа: привод, робот, терминал.....)
         /// </summary>
-        [BsonId]
-        public string HwId { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;    
 
         public LicenseType LicenseType { get; set; } = LicenseType.None;
 

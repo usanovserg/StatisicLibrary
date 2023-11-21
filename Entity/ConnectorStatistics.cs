@@ -1,6 +1,6 @@
-﻿
+﻿using StatisticLibrary.Enums;
 
-namespace StatisticLibrary
+namespace StatisticLibrary.Entity
 {
     public class ConnectorStatistics
     {
