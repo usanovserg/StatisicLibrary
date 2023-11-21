@@ -2,9 +2,9 @@
 
 namespace StatisticLibrary
 {
-    public class LisaStatistics
+    public class RobotStatistics
     {
-        public LisaStatistics()
+        public RobotStatistics()
         {
 
         }
@@ -23,7 +23,7 @@ namespace StatisticLibrary
         public DateTime LicenseExpire { get; set; } = DateTime.MinValue;
 
         /// <summary>
-        /// Общее время работы привода.
+        /// Общее время работы робота.
         /// </summary>
         public TimeSpan TotalWorkingTime { get; set; } = new TimeSpan();
 
